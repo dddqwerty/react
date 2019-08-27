@@ -1,0 +1,37 @@
+
+.container {
+
+    width: 300px;
+
+    height: 350px;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+
+}
+.input {
+    
+    width: 300px;
+    height: 50px;
+    background-color: white;
+}
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+}
+button {
+
+    width: 75px;
+    height: 75px;
+    border-radius: 10%;
+}
+.zero {
+    width: 150px;
+}
+.dad {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
